@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button {
+    background-color: rgba(0, 255, 76, 0.527);
+    border: 1px solid black; 
+    border-radius: 2px 2px 2px 2px;
+    padding: 6px;
+    margin-top: 5px;
+    font-size: medium;
+    transition: 0.15s;
+}
+
+
+button:hover {
+    background-color: rgba(0, 255, 76, 0.788);
+}
+
+
+button:active {
+    background-color: rgb(0, 255, 76);
+}
+
+
+input {
+    padding: 3px;
+    font-size: large;
+}
+
+#output {
+    border: 4px double black;  
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.list-out {
+    display: inline-block;
+    border: 3px double black;
+}
+
+.list-out ol {
+    margin-right: 10px;
+    font-size: large;
+    font-weight: bold;
+}

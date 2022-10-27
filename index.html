@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random picker</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header><h2>Random picker</h2></header>
+    <main>
+        <input id="input" type="text" placeholder="add to list"> <br>
+        <button onclick="add()">Add</button> <br>
+        <button onclick="getRandom()">Get random</button> <br>
+        <h4 id="output">output</h4> <br>
+        <h4> List :</h4>
+        <div class="list-out">
+        <ol id="list"></ol>
+        </div> <br>
+        <button onclick="reset()">Reset list</button>
+    </main>
+</body>
+</html>
